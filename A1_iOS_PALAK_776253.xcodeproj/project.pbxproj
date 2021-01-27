@@ -13,6 +13,8 @@
 		213E25DC25BF41930003E60F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213E25DA25BF41930003E60F /* Main.storyboard */; };
 		213E25DE25BF41930003E60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213E25DD25BF41930003E60F /* Assets.xcassets */; };
 		213E25E125BF41930003E60F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213E25DF25BF41930003E60F /* LaunchScreen.storyboard */; };
+		213E25EB25BF48EB0003E60F /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E25E925BF48EB0003E60F /* Place.swift */; };
+		213E25EC25BF48EB0003E60F /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 213E25EA25BF48EB0003E60F /* Places.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		213E25DD25BF41930003E60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		213E25E025BF41930003E60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		213E25E225BF41930003E60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213E25E925BF48EB0003E60F /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		213E25EA25BF48EB0003E60F /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				213E25DD25BF41930003E60F /* Assets.xcassets */,
 				213E25DF25BF41930003E60F /* LaunchScreen.storyboard */,
 				213E25E225BF41930003E60F /* Info.plist */,
+				213E25E925BF48EB0003E60F /* Place.swift */,
+				213E25EA25BF48EB0003E60F /* Places.plist */,
 			);
 			path = A1_iOS_PALAK_776253;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				213E25E125BF41930003E60F /* LaunchScreen.storyboard in Resources */,
 				213E25DE25BF41930003E60F /* Assets.xcassets in Resources */,
+				213E25EC25BF48EB0003E60F /* Places.plist in Resources */,
 				213E25DC25BF41930003E60F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 				213E25D925BF41930003E60F /* ViewController.swift in Sources */,
 				213E25D525BF41930003E60F /* AppDelegate.swift in Sources */,
 				213E25D725BF41930003E60F /* SceneDelegate.swift in Sources */,
+				213E25EB25BF48EB0003E60F /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
